@@ -1,0 +1,63 @@
+body 
+{
+    direction:rtl;
+    background-image:url("../IMAGES/pink.jpg");
+}
+
+h1{
+    font-size:18px;
+    font-weight:bold;
+    color:#933e8d;
+    text-decoration:underline;
+    font-family:Arial;
+}
+
+p{
+    font-family:Arial;
+    font-size:16px;
+}
+
+#facebook{
+    background-image:url(../IMAGES/facebook.png);
+}
+
+#instagram{
+    background-image:url(../IMAGES/instagram-icon.png);
+}
+
+#center a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+#profileImage{
+    background-position:center ;
+    background-image:url("../IMAGES/almog.jpg");
+    background-size:cover;
+    width:276px;
+    height:369px;
+    float:right;
+    
+
+   
+}
+
+#profileImage:hover {
+    background:url("../IMAGES/almog2.jpg")no-repeat center top;
+    background-size:cover;
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -ms-translation:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+
+}
+
+header{
+    font-family: Arial;
+    font-size: 17;
+    color:#d161ba;
+}
