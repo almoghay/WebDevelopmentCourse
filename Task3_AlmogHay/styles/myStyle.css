@@ -1,0 +1,193 @@
+body 
+{
+    direction:rtl;
+    background-image:url("../IMAGES/pink.jpg");
+}
+
+h1{
+    font-size:18px;
+    font-weight:bold;
+    color:#933e8d;
+    text-decoration:underline;
+    font-family:Arial;
+}
+
+p{
+    font-family:Arial;
+    font-size:16px;
+}
+
+#nav1 ul {
+    list-style: none;
+    width: 512px; 
+    margin: 0 auto;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: #2f2f33;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+        }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: deeppink;
+            }
+
+            #nav1 ul li a:active {
+                background-color: #933e8d;
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+            width: 120px;
+        }
+
+
+
+#facebook{
+    background-image:url(../IMAGES/facebook.png);
+}
+
+#instagram{
+    background-image:url(../IMAGES/instagram-icon.png);
+}
+
+#center a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+#profileImage{
+    background-position:center ;
+    background-image:url("../IMAGES/almog.jpg");
+    background-size:cover;
+    width:276px;
+    height:369px;
+    margin-right:20px;
+    margin-top: 50px;
+    position:absolute;
+ 
+    
+}
+
+#profileImage:hover {
+    background:url("../IMAGES/almog2.jpg")no-repeat center top;
+    background-size:cover;
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -ms-translation:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+
+}
+
+header{
+    font-family: Arial;
+    font-size: 17px;
+    color:#d161ba;
+    margin-top:7px;
+    margin-right: 10px;
+}
+
+#nav2 ul li{
+    display:inline-block;
+}
+
+#nav2 ul li:after{
+    content: ">";
+}
+
+#nav2 ul li:last-child:after{
+    content:"";
+
+}
+
+#nav2{
+    margin-right:20px;
+    margin-top: 10px;
+}
+
+#center{
+  margin-right:350px;
+  margin-top:100px;
+  position:absolute;
+  
+
+}
+footer{
+    margin-top:250px;
+}
+
+
+#profileImage5 {
+    background-image: url("../IMAGES/Sucrose.gif");
+    width: 525px;
+    height: 359px;
+    margin-right: 5px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+#chimestry {
+      margin-right:500px;
+      margin-top:80px;
+      position:absolute;
+
+}
+
+#profileImage6 {
+    background-image: url("../IMAGES/hit (1).png");
+    width: 300px;
+    height: 204px;
+    margin-right: 10px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+#Hit {
+      margin-right:370px;
+      margin-top:40px;
+      position:absolute;
+}
+
+#profileImage2 {
+    background-image: url("../IMAGES/anigif_enhanced-25096-1459862683-3.gif");
+    width: 470px;
+    height: 340px;
+    margin-right: 10px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#hobby {
+      margin-right:500px;
+      margin-top:40px;
+      position:absolute;
+}
+
+#student {
+      margin-right:350px;
+      margin-top:40px;
+      position:absolute;
+}
