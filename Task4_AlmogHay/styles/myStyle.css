@@ -1,0 +1,141 @@
+body 
+{
+    direction:rtl;
+    background-color:#f7ffff
+}
+
+#container {
+    width:960px;
+    margin: 0 auto;
+}
+
+#programing{
+    width:230px;
+    height:140px;
+    margin-right:60px;
+    margin-left:60px;
+    border-radius:15px;
+}
+
+#design{
+    width:230px;
+    height:140px;
+    margin-right:70px;
+    margin-top: 40px;
+    border-radius:15px;
+}
+
+#coaching{
+    width:230px;
+    height:140px;
+    border-radius:15px;
+}
+
+#Title{
+
+}
+
+p1, p2, p3{
+    font-family:'Varela Round';
+    font-weight:bold;
+    font-size:30px;
+    margin-right:120px;
+    color:#B27D50;
+}
+
+p2{
+    padding-right:60px;
+    padding-left:92px;
+}
+
+p4{
+    font-family:'Varela Round';
+    font-weight:bold;
+    font-size:45px;
+    display:block;
+    padding-top:20px;
+    margin-right:260px;
+
+}
+p5{
+        font-family:'Varela Round';
+        text-align:center;
+        padding-top:10px;
+        display:block;
+}
+
+p6{
+    font-family:'Varela Round';
+    display:block;
+    padding-top:18px;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:7px;
+    color:#3EA0B2;
+}
+
+label{
+    font-family:'Varela Round';
+    margin-top:60px;
+  
+}
+
+input[type ='submit']{
+    margin-right:400px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+input[type ='text'] {
+    display: block;
+}
+
+#aROW{
+    margin-right:240px;
+}
+
+#bROW{
+    float:left;
+    margin-left:220px;
+    margin-top:-77px;
+}
+
+#border{
+    border: 2px solid #8BEDFF;
+    margin-top:30px;
+    margin-right:70px;
+    margin-left:70px;
+}
+
+#facebook{
+    background-image:url(../IMAGES/facebook.png);
+    width:55px;
+    height:55px
+}
+
+#webSite{
+    background-image:url('../IMAGES/hit (1).png');
+    margin-top:-180px;
+        width:65px;
+    height:65px;
+}
+
+a{
+    display:block;
+
+    background-repeat:no-repeat;
+    background-size:contain;
+   margin-left:-20px;
+    float:left;
+    margin-top:-80px;
+}
+
+
+
+
+
+
+
+
+
