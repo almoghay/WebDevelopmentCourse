@@ -1,0 +1,277 @@
+body 
+{
+    direction:rtl;
+    background-image: url('../IMAGES/background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+#homePage{
+    background-repeat: no-repeat;
+    width:475px;
+    height:414px;
+    margin-top:40px;
+    margin-right:200px; 
+      border-radius: 50%;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition:         transform .3s ease-in-out;
+}
+
+#homePage:hover{
+    background-image:url(../IMAGES/logo.png);
+     -webkit-transform: rotate(-14deg);
+          transform: rotate(-14deg)
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+#nav1{
+    margin-right:25px;
+    margin-top: 30px;
+   
+}
+
+#nav1 ul {
+    list-style: none;
+}
+
+ #nav1 ul li {
+        display: inline-block;
+  
+    }
+
+ #nav1 ul li a {
+            display: block;
+            background-color: #7B727C;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+            
+ }
+
+ #nav1 ul li a:hover {
+                background-color: #B671BF;
+ }
+ #nav1 ul li a:active {
+                background-color: #794B7F;
+ }
+
+ #facebook{
+    background-image:url(../IMAGES/facebook.png);
+}
+
+ #facebook:hover{
+     background-image:url(../IMAGES/facebook.png);
+     transform:scale(1.1,1.1)
+ }
+
+#instagram{
+    background-image:url(../IMAGES/instagram-icon.png);
+}
+
+#instagram:hover{
+    background-image:url(../IMAGES/instagram-icon.png);
+    transform:scale(1.1,1.1)
+}
+
+#center a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    margin-top: -10px;
+    
+}
+
+#center{
+    margin-right:850px;
+}
+/*לוגו לדפים הפנימיים*/
+
+.logo{
+    background-repeat: no-repeat;
+    height:414px;
+    display: inline-block;
+    margin-top:-43px;
+}
+
+/*תפריט ניווט לעמודים הפנימיים*/
+#nav2{
+    margin-right:25px;
+    margin-top: 50px; 
+}
+
+#nav2 ul {
+    list-style: none;
+   margin-right: 150px;
+}
+
+ #nav2 ul li {
+        display: inline-block;
+    }
+
+ #nav2 ul li a {
+            display: block;
+            background-color: #7B727C;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;     
+ }
+
+ #nav2 ul li a:hover {
+                background-color: #B671BF;
+ }
+ #nav2 ul li a:active {
+                background-color: #794B7F;
+ }
+
+ .border{
+    border:3px solid #d8a2fb;
+}
+
+ /*עיצוב הדף של "ארגון וייצוג ידע"*/
+ .alfon{
+     background-repeat:no-repeat;
+     width:480px;
+     height:390px;
+     margin-top:-235px;
+ }
+
+ .alfon h1{
+     font-weight:600;
+     font-size: 20px;
+     margin-right:500px;
+    position:absolute;
+    margin-top: -80px;
+ }
+
+ .alfon p{
+     font-size: 17px;
+     margin-right:500px;
+     position:absolute;
+     margin-top:-50px;
+     width:450px;
+ }
+
+ /*פוטר לדפים הפנימיים*/
+
+#center1 a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+   background-repeat:no-repeat;
+   background-size:contain;   
+}
+
+#center1{
+    margin-right:700px;
+        position: absolute;
+        top: 535px;
+    }
+/*סידור המוזיקה*/
+
+#audio{
+    margin-right:570px;
+    margin-top:-320px;
+    position:absolute;
+
+}
+
+/*עיצוב הדף של תקשורת חזותית*/
+
+.memory {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 420px;
+    margin-top: -245px;     
+}
+
+.memory h1{
+     font-weight:600;
+     font-size: 19px;
+     margin-right:400px;
+    position:absolute;
+    margin-top:-77px;
+ }
+
+.memory p{
+     font-size: 16px;
+     margin-right:400px;
+     position:absolute;
+     margin-top:-47px;
+     width:555px;
+ }
+
+/*הטמעת סרטון מיוטיוב*/
+
+#youtube{
+    margin-right:500px;
+    margin-top:-340px;
+    position:absolute;
+}
+
+/*סידור הפוטר של תקשורת חזותית*/
+
+#center4 a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+#center4{
+    margin-right:300px;
+    position: absolute;
+    top:680px;
+
+}
+
+/*סידור הדף של סביבות אינטראקטיביות*/
+
+#interactiveVideo{
+margin-top:-300px;
+margin-right:10px;
+position:absolute;
+}
+
+.interactive h1{
+      font-weight:600;
+     font-size: 18px;
+    position:absolute;
+    margin-top:-290px;
+    margin-right:590px;
+}
+
+.interactive p{
+    font-size:16px;
+    margin-right:580px;
+    margin-top:-250px;
+     position:absolute;
+     width:380px;
+}
+
+#center2 a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    margin-bottom:-95px;
+}
+
+#center2{
+    margin-right:800px;
+}
+
