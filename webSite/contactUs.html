@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="he-il">
+<head>
+    <meta charset="UTF-8">
+    <title>Explaining Holidays</title>
+
+    <meta name="description" content="אתר מסבירים חגים- עמוד צור קשר" />
+    <meta name="keywords" content="חגים, ראש השנה, פסח, מכון טכנולוגי חולון, סוכות, יום כיפור, מצוות, מנהגים,יהדות,סיפורי החגים, מנהגי החגים,החג בקיצור, צור קשר, HIT,מסלול טכנולוגיות למידה" />
+    <meta name="author" content="אלמוג חי, שרון ארביב ומרים ליוברוב" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900&amp;subset=hebrew" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body onload="tab_nav()">
+    <section class="container-fluid nav-wrapper">
+        <nav class="container holyup">
+            <ul>
+                <li>
+                    <a class="top-menu-link rightMenu" href="holiday-story.html">איך נוצר החג?</a>
+                    <ul class="level-1">
+                        <li> <a class="level-1" href="holiday-story.html">סיפורי החג</a></li>
+                        <li> <a class="level-1" href="holiday-minhag.html">מנהגי החג</a></li>
+                        <li> <a class="level-1 not-allowed" href="">גיבורים ורשעים</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="top-menu-link rightMenu" href="holiday-summary.html">החג בקיצור</a></li>
+
+                <li>
+                    <a href="index.html" alt="לוגו" title="דף הבית">
+                        <img src="images/logo.png" alt="לוגו">
+                    </a>
+                </li>
+                           <li>
+                <a href="index.html" alt="לוגו" title="דף הבית">
+               <img src="images/logo.png" alt="לוגו">
+                </a>
+                </li>
+                <li>
+                    <a class="top-menu-link leftMenu" href="#">ישראלים חוגגים</a>
+                    <ul class="level-1 wide" id="israelis">
+                        <li> <a class="level-1 not-allowed" href="#">גלריית תמונות</a></li>
+                        <li> <a class="level-1 not-allowed" href="#">מה אתם יודעים על החגים</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="top-menu-link leftMenu not-allowed" href="#">לוח חגים</a></li>
+            </ul>
+        </nav>
+        <div class="container nav-line">
+            <hr>
+            <p>התשובות הפשוטות לשאלות המעניינות על החגים הישראלים</p>
+        </div>
+    </section>
+    <section class="container">
+        <ul class="row breadcrumbs">
+            <li class="crumb"><a href="index.html">דף הבית</a><span class="crumb-separator">></span></li>
+            <li class="crumb current">צרו קשר</li>
+        </ul>
+    </section>
+    <section class="container text-content">
+            <div class="contact-form">
+                <form>
+                    <input type="hidden" id="myEmail" name="name" value="vorobyova.mariya17@gmail.com">
+
+                    <label for="FirstName">
+                        <p>שם פרטי:</p>
+                        <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+                    </label>
+
+                    <label for="LastName">
+                        <p>שם משפחה:</p>
+                        <input type="text" id="LastName" placeholder="הכנס את שמך המשפחה" />
+                    </label>
+
+                    <label for="Email">
+                        <p>כתובת אימייל:</p>
+                        <input type="text" id="LastName" placeholder="הכנס את כתובת אימייל שלך" />
+                    </label>
+
+                    <label for="myMS">
+                        <p>הודעה כאן:</p>
+                        <textarea id="myMS"></textarea>
+                    </label>
+
+                    <input type="submit" id="Send" value="שלח">
+
+                    <div id="feedback"></div>
+
+                </form>
+            </div>
+    </section>
+    <footer class="container-fluid">
+        <a href="about.html">אודות</a>
+        <a href="siteMap.html">מפת האתר</a>
+        <a href="contactUs.html">צרו קשר</a>
+        <a href="Masbirim_Mahacalii_Hagim/Masbirim_Mahacalii_Hagim.html" target="_blank">ייצוג אינטראקטיבי - מסבירים מאכלי חגים</a>
+    </footer>
+</body>
+</html>

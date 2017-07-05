@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<html lang="he-il" class="inner-page holiday-page page-pesakh">
+<head>
+	<meta charset="UTF-8">
+	<title>Explaining Holidays</title>
+
+    <meta name="description" content="מסבירים חגים- מנהגי חג הפסח" />
+    <meta name="keywords" content="חגים, ראש השנה, פסח, מכון טכנולוגי חולון, סוכות, יום כיפור, מצוות, מנהגים,יהדות,סיפורי החגים, מנהגי החגים, החג בקיצור,אינפוגרפיקה,מצות,הגדה, קורבן פסח, ביעור חמץ, למה מחפשים אפיקומן, HIT,מסלול טכנולוגיות למידה" />
+    <meta name="author" content="אלמוג חי, שרון ארביב ומרים ליוברוב" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+	<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900&amp;subset=hebrew" rel="stylesheet">
+	<link rel="stylesheet" href="styles/bootstrap.css">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body onload="tab_nav()">
+    <section class="container-fluid nav-wrapper">
+        <nav class="container holyup">
+            <ul>
+                <li>
+                    <a class="top-menu-link rightMenu" href="holiday-story.html">איך נוצר החג?</a>
+                    <ul class="level-1">
+                        <li> <a class="level-1" href="holiday-story.html">סיפורי החג</a></li>
+                        <li> <a class="level-1" href="holiday-minhag.html">מנהגי החג</a></li>
+                        <li> <a class="level-1 not-allowed" href="">גיבורים ורשעים</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="top-menu-link rightMenu" href="holiday-summary.html">החג בקיצור</a></li>
+
+                <li>
+                    <a href="index.html" alt="לוגו" title="דף הבית">
+                        <img src="images/logo.png" alt="לוגו">
+                    </a>
+                </li>
+
+                <li>
+                    <a class="top-menu-link leftMenu" href="#">ישראלים חוגגים</a>
+                    <ul class="level-1 wide" id="israelis">
+                        <li> <a class="level-1 not-allowed" href="#">גלריית תמונות</a></li>
+                        <li> <a class="level-1 not-allowed" href="#">מה אתם יודעים על החגים</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="top-menu-link leftMenu not-allowed" href="#">לוח חגים</a></li>
+            </ul>
+        </nav>
+        <div class="container nav-line">
+            <hr>
+            <p>התשובות הפשוטות לשאלות המעניינות על החגים הישראלים</p>
+        </div>
+    </section>
+
+	<section class="container">
+		<ul class="row breadcrumbs">
+			<li class="crumb"><a href="index.html">דף הבית</a><span class="crumb-separator">></span></li>
+			<li class="crumb"><a href="holiday-story.html">מנהגי החג</a><span class="crumb-separator">></span></li>
+			<li class="crumb current">פסח</li>
+		</ul>
+	</section>
+
+	<section class="container-fluid secondary-navigation carousel">
+		<div class="container">
+			<span class="carousel-arrow carousel-arrow-right"><img src="images/arrow.png" alt=""></span>
+			<span class="carousel-arrow carousel-arrow-left hidden"><img src="images/arrow.png" alt=""></span>
+			<ul class="row">
+				<li class="not-allowed red">
+					<a href="#">
+						<img src="images/secondary-navigation/roshhashana.png" alt="">
+						<p>ראש השנה</p>
+					</a>
+				</li>
+				<li class="not-allowed orange">
+					<a href="#">
+						<img src="images/secondary-navigation/yomkippur.png" alt="">
+						<p>יום כיפור</p>
+					</a>
+				</li>
+				<li class="not-allowed pink">
+					<a href="#">
+						<img src="images/secondary-navigation/sukkot.png" alt="">
+						<p>סוכות</p>
+					</a>
+				</li>
+				<li class="not-allowed green">
+					<a href="#">
+						<img src="images/secondary-navigation/hanukah.png" alt="">
+						<p>חנוכה</p>
+					</a>
+				</li>
+				<li class="not-allowed blue">
+					<a href="#">
+						<img src="images/secondary-navigation/tubishvat.png" alt="">
+						<p>ט''ו בשבט</p>
+					</a>
+				</li>
+				<li class="not-allowed green">
+					<a href="#">
+						<img src="images/secondary-navigation/purim.png" alt="">
+						<p>פורים</p>
+					</a>
+				</li>
+				<li class="active red">
+					<a href="#">
+						<img src="images/secondary-navigation/pesah.png" alt="">
+						<p>פסח</p>
+					</a>
+				</li>
+				<li class="not-allowed orange">
+					<a href="#">
+						<img src="images/secondary-navigation/lagbaomer.png" alt="">
+						<p>ל''ג בעומר</p>
+					</a>
+				</li>
+				<li class="not-allowed pink">
+					<a href="#">
+						<img src="images/secondary-navigation/shavuot.png" alt="">
+						<p>שבועות</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<p class="section-heading"><b>מנהגי חג הפסח</b></p>
+
+	<section class="container">
+		<div class="row holiday-row">
+			<div class="col-sm-4 content-image"><img src="images/pesakh/artboard.png" width="180" alt=""></div>
+			<div class="col-sm-7 col-sm-offset-1">
+				<p class="content-text">בחג הפסח ישנן מצוות עיקריות המסתעפות למצוות עשה ואל- תעשה רבות. המנהג העיקרי של חג הפסח הוא מנהג קריאת ההגדה בליל הסדר אשר מטרתו להעביר מדור לדור את סיפור יציאת בני ישראל ממצרים, מעבדות לחירות.</p>
+			</div>
+		</div>
+		
+		<div class="row holiday-row">
+			<div class="col-sm-12 accordion">
+				<div class="accordion-title">
+					<p class="content-text">
+						<img src="images/white-arrow.png" alt="">
+						<b>מה נמצא בהגדה של פסח?</b>
+					</p>
+				</div>
+				<div class="accordion-content row">
+					<div class="accordion-text col-sm-12">
+						<p class="content-text">ההגדה של פסח היא קובץ מדרשים, מזמורים, דברי חז"ל, ברכות, תפילות ופיוטים שנוצר כדי לאומרו בליל הסדר- הלילה הראשון של חג הפסח. הקובץ נקרא הגדה על פי הפסוק " והגדת לבנך", פסוק זה מהווה מצווה לעם ישראל להמשיך ולספר לדורות הבאים מהי יציאת מצרים.</p>
+					</div>
+				</div>
+			</div>
+
+            <div id="section2" class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>מהו קורבן פסח?</b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-image col-sm-4">
+                            <img src="images/pesakh/korban2.jpg" width="300" alt="">
+                        </div>
+                        <div class="accordion-text col-sm-7 col-sm-offset-1">
+                            <p class="content-text">
+
+                                קורבן פסח ביהדות הוא קורבן של שה שמוקרב ונאכל בפסח.
+                                <b>
+                                    מהי מקורה של המצווה?
+                                </b> משה מצטווה להודיע לבני ישראל בעודם במצרים לשחוט שה של כבש או עז בי"ד בניסן (ערב פסח). בני ישראל הצטוו למרוח מדם הקרבן על פתח ביתם ועל המזוזות משום שאותו לילה היה ליל מכת בכורות ומריחת הדם מהווה אות למלאך המשחית שיפסח על בתי בני ישראל ולא יכה בהם. <br />
+                                <b>חז"ל מסבירים: </b>שחיטת השה מהווה סמל לניתוק מן העבודה הזרה כי השה היה אלוהותם של המצרים.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="col-sm-12 accordion closed">
+				<div class="accordion-title">
+					<p class="content-text">
+						<img src="images/white-arrow.png" alt="">
+						<b>מהו ביעור חמץ?</b>
+					</p>
+				</div>
+				<div class="accordion-content row">
+					<div class="row accordion-row">
+						<div class="accordion-image col-sm-4">
+							<img src="images/pesakh/burn.jpg" alt="">
+						</div>
+						<div class="accordion-text col-sm-7 col-sm-offset-1">
+							<p class="content-text">חמץ הינו אחד מ-5 מיני דגן או תוצרתם שכשבא במגע עם מים חל בו תהליך תפיחה. כל דבר הראוי לאכילה ויש בו תערובת חמץ - אסור באכילה בפסח. </br>
+<b>מהי מקורה של המצווה? </b>איסור אכילת החמץ נקבע לזכר המסופר בספר שמות: בצאת בני ישראל ממצרים הם אכלו מצות כיוון שהבצק לא הספיק להחמיץ בשל ההכנה החפוזה.
+</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <div class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>מהי משמעותן של 4 הקושיות ("מה נשתנה") ?</b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-image col-sm-4">
+                            <img src="images/pesakh/maNishtana.jpeg" alt="">
+                        </div>
+                        <div class="accordion-text col-sm-7 col-sm-offset-1">
+                            <p class="content-text">"מה נשתנה" הוא קטע בתחילת ההגדה של פסח הידוע כארבע קושיות (שאלות). קטע זה מתחיל את קיומה של מצוות ו"הגדת לבנך"- הנחלת סיפור יציאת מצרים לדור הבא.
+מטרת שאלת 4 הקושיות שילדים שואלים בערב חג הפסח היא לעניין את הצעיר בילדים במוזרויות של הסדר וכך לגרום לילד להבין את חשיבותה של יציאת מצרים.
+
+הילד שואל: "מה נשתנה הלילה הזה מכל הלילות" תוך התייחסות לארבעה מאפיינים: <br />
+1.	<b>אכילת המצות: </b> "שבכל הלילות אנו אוכלים חמץ ומצה, הלילה הזה כולו מצה".<br />
+2.	<b>אכילת המרור</b> "שבכל הלילות אנו אוכלים שאר ירקות, הלילה הזה (כולו) מרור".<br />
+3.	<b>הטבלת הירקות</b> "שבכל הלילות אין אנו מטבילין אפילו פעם אחת, הלילה הזה שתי פעמים".<br />
+4.	<b>צורת הישיבה על השולחן: </b>"שבכל הלילות אנו אוכלין בין יושבין ובין מסובין, הלילה הזה כולנו מסובין". שאלה זו מתייחסת למנהג לאכול את הסדר בשכיבה על כריות (בהסבה) בניגוד לישיבה רגילה על כיסא.
+.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>מה הן עשר המכות?</b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-text col-sm-7 col-sm-offset-1">
+                            <p class="content-text">
+                            שאלה זו לא פותחה.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>על אילו 4 בנים מדובר במשפט "כנגד ארבעה בנים דיברה תורה"? </b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-text ">
+                            <p class="content-text">
+                                <div class="row">
+                                    <div class="try"> לחצו על אחד הבנים וגלו מידע אודותיו...</div>
+                                    <div class="column">
+                                        <img src="images/smartBlackWhite.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/bedBlackAndWhite.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/tamBlakAndWhite.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/notAskBlackAndWhite.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                                    </div>
+                                </div>
+                                <div id="myModal" class="modal">
+                                    <span class="close cursor" onclick="closeModal()">×</span>
+                                    <div class="modal-content">
+                                        <div class="mySlides">
+                                            <div class="numbertext">1 / 4</div>
+                                            <img src="images/smartText.JPG" style="width:80%">
+                                        </div>
+                                        <div class="mySlides">
+                                            <div class="numbertext">2 / 4</div>
+                                            <img src="images/bedText.JPG" style="width:80%">
+                                        </div>
+                                        <div class="mySlides">
+                                            <div class="numbertext">3 / 4</div>
+                                            <img src="images/tamText.JPG" style="width:80%">
+                                        </div>
+                                        <div class="mySlides">
+                                            <div class="numbertext">4 / 4</div>
+                                            <img src="images/notAskText.JPG" style="width:80%">
+                                        </div>
+                                        <a class="prev" onclick="plusSlides(-1)">❯</a>
+                                        <a class="next" onclick="plusSlides(1)">❮</a>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>למה שותים בליל הסדר 4 כוסות של יין? </b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-image col-sm-4">
+                            <img src="images/pesakh/wine.jpg" alt="">
+                        </div>
+                        <div class="accordion-text col-sm-7 col-sm-offset-1">
+                            <p class="content-text">
+                                1. הכוס הראשונה היא הכוס של הקידוש, שבה אנו מקבלים על עצמנו את קדושת החג. <br />
+                                2. את הכוס השנייה שותים על אמירת ההגדה של פסח וסיפור יציאת מצרים. <br />
+                                3. השלישית היא הכוס של ברכת המזון. <br />
+                                4.את הרביעית שותים על גמר ההלל לה' הנאמר במהלך ההגדה.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>מהו האפיקומן?  </b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-image col-sm-4">
+                            <img src="images/pesakh/aficoman.jpg" alt="">
+                        </div>
+                        <div class="accordion-text col-sm-7 col-sm-offset-1">
+                            <p class="content-text">
+                                אפיקומן= "ליפתן", כלומר הקינוח בארוחה. בתנ"ך כתוב "אין מפטירין אחר הפסח אפיקומן", כלומר אין מסיימים את הסעודה, אחרי אכילת קרבן הפסח בקינוח וזאת כדי שיישאר טעם הבשר של קרבן הפסח. <br />
+                                <br />
+                                <b>מה קורה בימינו? </b>   בימינו אין קרבן פסח, אך כדי לשמור על טעם של פסח בפה, אנו אוכלים בסוף הסעודה מצה ששמרנו מתחילת הסעודה, ולא אוכלים אחריה שום קינוח. אם כך, המצה האחרונה שאנו אוכלים היא למעשה ה"קינוח" ולכן אנו קוראים לה "אפיקומן".<br />
+                                <br />
+                                כיום מחביאים את האפיקומן (חצי מצה מכוסה במפית) והילד הראשון שמוצא מקבל פרס . המנהג הזה כבר בן אלף שנה מתוך רצון לעורר את הילדים ולתת להם סיבה להישאר פעילים וקשובים לקריאת ההגדה.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 accordion closed">
+                <div class="accordion-title">
+                    <p class="content-text">
+                        <img src="images/white-arrow.png" alt="">
+                        <b>אילו מאכלים מציבים בתוך קערת הסדר ולמה? </b>
+                    </p>
+                </div>
+                <div class="accordion-content row">
+                    <div class="row accordion-row">
+                        <div class="accordion-image col-sm-4">
+                            <img src="images/pesakh/keara.jpeg" alt="">
+
+                        </div>
+                        <div class="accordion-text col-sm-7 col-sm-offset-1">
+                            <p class="content-text">
+                                קערת ה'סדר' מסמלת גם את תקופת השעבוד במצרים וגם את היציאה לחירות.
+                                מציבים בתוכה: מרור וחרוסת אשר מסמלים את תקופת השעבוד במצרים שכללה עבודות פרך בבנייה. <br /> זרוע אשר מסמלת את היציאה מעבדות לחירות. ביצה, כרפס, חזרת ומצה.
+                                <br /> רעבים לדעת יותר על מאכלי החג? מוזמנים להיכנס <a target="_blank" href="Masbirim_Mahacalii_Hagim/Masbirim_Mahacalii_Hagim.html">למסבירים מאכלי חגים בגרסא אינטראקטיבית!</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+	</section>
+	
+	<section class="container related-articles">
+		<div class="row">
+			<div class="col-sm-4 article-box not-allowed">
+				<a href="#">
+					<img src="images/articles/heroes.png" alt="">
+					<p class="content-text">פסח - גיבורים ורשעים</p>
+				</a>
+			</div>
+			<div class="col-sm-4 article-box">
+                <a href="holiday-summary.html">
+					<img src="images/articles/short-story.png" alt="החג בקיצור- פסח">
+					<p class="content-text">פסח - חג בקיצור</p>
+				</a>
+			</div>
+			<div class="col-sm-4 article-box not-allowed">
+				<a href="#">
+					<img src="images/articles/minhagim.png" alt="פסח מנהגי בחג">
+					<p class="content-text">פסח - מנהגי החג</p>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<a class="red big-btn not-allowed" href="#">כמה אתם יודעים על החגים לעומת שאר הישראלים?</a>
+
+	<footer class="container-fluid">
+		<a href="about.html">אודות</a>
+		<a href="siteMap.html">מפת האתר</a>
+		<a href="contactUs.html">צרו קשר</a>
+		<a href="Masbirim_Mahacalii_Hagim/Masbirim_Mahacalii_Hagim.html" target="_blank">ייצוג אינטראקטיבי - מסבירים מאכלי חגים</a>
+	</footer>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
